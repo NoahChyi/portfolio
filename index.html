@@ -18,7 +18,6 @@
   <meta name="author" content="Noah Chyi">
   <meta name="keywords" content="Noah Chyi, web developer, front-end developer, HTML, CSS, JavaScript, portfolio, freelance, remote work, creative coding">
   <meta name="robots" content="index, follow">
-   <title>Noah Chyi - Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -27,7 +26,7 @@
     <p>Front-End Developer</p>
   </header>
 
-  <main>
+  <main class="container">
     <section>
       <h2>About Me</h2>
       <p>I’m Noah, an aspiring web developer currently learning HTML, CSS, and JavaScript.</p>
@@ -44,10 +43,20 @@
 
     <section>
       <h2>Contact</h2>
-      <p>Email: qikt77@gmail.com</p>
-      <p>Instagram：
-  <a href="https://instagram.com/noahchyi" target="_blank">noahchyi</a>
-</p>
+      <!-- Email Card -->
+        <div class="social-card">
+    <a href="mailto:qikt77@gmail.com" class="social-icon-link">
+        <img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="Email" class="social-icon" />
+        <span class="social-text">qikt77@gmail.com</span>
+    </a>
+</div>
+        <!-- Instagram Card -->
+      <div class="social-card">
+  <a href="https://instagram.com/noahchyi" target="_blank" rel="noopener" class="social-icon-link" >
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" class="social-icon" />
+    <span class="social-text">Follow me on Instagram</span>
+  </a>
+</div>
     </section>
   </main>
 
